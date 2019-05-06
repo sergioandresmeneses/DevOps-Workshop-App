@@ -1,0 +1,8 @@
+version: "2.0"
+services:
+        nginxservice:
+                image: nginx-app
+                ports:
+                        - "80:80"
+                container_name: nginxservice
+                restart: always
